@@ -1,7 +1,5 @@
-// flycheck-clang-language-standard
-// clang++ -std=c++17 -pthread
-#include <iostream>
 #include <chrono>
+#include <iostream>
 #include <thread>
 
 using namespace std;
