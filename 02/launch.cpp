@@ -11,8 +11,18 @@ public:
   }
 };
 
+
+struct SomeStrunct {
+  int a;
+  int b;
+};
+
 int main(){
   thread tt(thread_task{});
+  int a=1;
+  int b=0;
+  int c = a/b;
+  cout << (char) c;
   tt.join();
   cout << "ok\n";
   return 0;

@@ -1,6 +1,12 @@
 
 CPP=clang++ -std=c++17 -pthread
 
+run_rvalues: rvalues.out
+	./rvalues.out
+
+rvalues.out: rvalues.cpp
+	$(CPP) rvalues.cpp -o rvalues.out
+
 run_nodetach: nodetach.out
 	./nodetach.out
 
